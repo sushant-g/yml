@@ -6,7 +6,7 @@ server:
 authserver:
     hostname: localhost
     port: 8899
-    contextPath: auth
+    contextPath: userauth
     
 # Define the routes which determine what URL are serviced by what applications.
 # The application/services are defined in the bootstrap.yml file of individual applications
