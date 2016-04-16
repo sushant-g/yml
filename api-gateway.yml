@@ -17,7 +17,9 @@ authserver:
 # requests using zuul
 zuul:
   routes:
-    user-service: /api/user/**
+    user-service: 
+      path: /api/user/**
+      sensitiveHeaders: Cookie,Set-Cookie
     web-portal: /**
     user: 
       path: /api/loggedinuser/**
