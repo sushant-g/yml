@@ -18,6 +18,7 @@ authserver:
 zuul:
   routes:
     user-service: /api/user/**
+    web-portal: /**
     user: 
       path: /api/loggedinuser/**
       stripPrefix: true
