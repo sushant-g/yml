@@ -3,12 +3,12 @@
 server:
   port: 8003
   contextPath: /auth 
-  
+security:
+  user:
+    name: dan
+    password: password
+    role: USER
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8002/eureka/
-
-security:
-  user:
-    password: password      
+      defaultZone: http://localhost:8002/eureka/   
