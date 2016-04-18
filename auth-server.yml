@@ -3,10 +3,7 @@
 server:
   port: 8003
   contextPath: /auth 
-  user:
-    name: dan
-    password: password
-    role: USER
+  
 eureka:
   client:
     serviceUrl:
