@@ -7,6 +7,6 @@ eureka:
       defaultZone: http://localhost:8002/eureka/
 
 security:
-	oauth2:
-		resource:
-			userInfoUri: http://localhost:8003/auth/user
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:8003/auth/user
