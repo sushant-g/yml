@@ -6,7 +6,10 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8002/eureka/   
+      defaultZone: http://localhost:8002/eureka/  
+security:
+  user:
+    password: password 
 # Datasource and JPA configuration to be used for storing the OAuth authorization details 
 # and token store
 spring:
