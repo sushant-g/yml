@@ -12,6 +12,11 @@ security:
     password: password 
 # Datasource and JPA configuration to be used for storing the OAuth authorization details 
 # and token store
+#Client
+app:
+  client:
+    id: mobile-app
+    secret: mySecret
 spring:
   data:
     mongodb:
