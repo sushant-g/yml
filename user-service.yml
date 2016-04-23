@@ -12,7 +12,7 @@ authserver:
     contextPath: auth
 
 # Note that the "/user" endpoint needs to provide the principle of the logged in user (/me endpoint)
-spring:
+security:
   oauth2:
     resource: 
       id: admin-api
