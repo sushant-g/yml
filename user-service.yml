@@ -15,5 +15,6 @@ authserver:
 spring:
   oauth2:
     resource: 
+      id: admin-api
       userInfoUri: http://${authserver.hostname}:${authserver.port}/${authserver.contextPath}/me
       preferTokenInfo: false 
