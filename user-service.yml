@@ -5,16 +5,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8002/eureka/
-# The OAuth2 server definition that would be used to send the authorization requests to
-authserver:
-    hostname: localhost
-    port: 8003
-    contextPath: auth
-
-# Note that the "/user" endpoint needs to provide the principle of the logged in user (/me endpoint)
-security:
-  oauth2:
-    resource: 
-      id: admin-api
-      userInfoUri: http://${authserver.hostname}:${authserver.port}/${authserver.contextPath}/me
-      preferTokenInfo: false 
