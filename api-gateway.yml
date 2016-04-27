@@ -4,8 +4,8 @@ server:
 
 zuul:
   routes:
-    user-service: 
-      path: /api/user/**
+    consumer-api: 
+      path: /api/consumer/**
 # Define the Eureka server that handles service registration
 eureka:
   client:

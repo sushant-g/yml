@@ -5,3 +5,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8002/eureka/
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: auth-db
