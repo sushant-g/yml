@@ -12,3 +12,6 @@ spring:
       host: localhost
       port: 27017
       database: auth-db
+feign:
+	hystrix:
+		enabled: false
