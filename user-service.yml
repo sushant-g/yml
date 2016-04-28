@@ -13,5 +13,5 @@ spring:
       port: 27017
       database: auth-db
 feign:
-	hystrix:
-		enabled: false
+  hystrix:
+    enabled: false
