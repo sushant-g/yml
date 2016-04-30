@@ -8,6 +8,8 @@ zuul:
       path: /api/consumer/**
     merchant-api: 
       path: /api/merchant/**
+    admin-api: 
+      path: /api/admin/**
 # Define the Eureka server that handles service registration
 eureka:
   client:
