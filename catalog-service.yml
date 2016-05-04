@@ -17,5 +17,5 @@ feign:
     enabled: false
 item:
   types:
-  	- Product
-  	- Service
+	-Product
+	-Service
