@@ -19,3 +19,18 @@ item:
   types:
   - product
   - service
+
+item:
+  units:
+  - 
+  name:quantity
+  unit:per item
+  -
+  name:weight
+  unit:per kg
+  -
+  name:time
+  unit:per hour
+  -
+  name:volume
+  unit:per litre
