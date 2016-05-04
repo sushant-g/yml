@@ -24,13 +24,13 @@ item:
   units:
   - 
   name:quantity
-  unit:per item
+  scale:per item
   -
   name:weight
-  unit:per kg
+  scale:per kg
   -
   name:time
-  unit:per hour
+  scale:per hour
   -
   name:volume
-  unit:per litre
+  scale:per litre
