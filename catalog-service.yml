@@ -20,20 +20,7 @@ item:
   - product
   - service
 
-item:
-  units:
-  - 
-  name:quantity
-  scale:per item
-  -
-  name:weight
-  scale:per kg
-  -
-  name:time
-  scale:per hour
-  -
-  name:volume
-  scale:per litre
+
 
 item:
   availability:
