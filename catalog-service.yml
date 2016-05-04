@@ -34,3 +34,8 @@ item:
   -
   name:volume
   scale:per litre
+
+item:
+  availability:
+  - Available
+  - Unavailable
