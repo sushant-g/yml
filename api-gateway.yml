@@ -3,6 +3,7 @@ server:
   port: 8004
 
 zuul:
+  retryable : false
   routes:
     consumer-api: 
       path: /api/consumer/**
@@ -10,6 +11,7 @@ zuul:
       path: /api/merchant/**
     admin-api: 
       path: /api/admin/**
+      
 # Define the Eureka server that handles service registration
 eureka:
   client:
