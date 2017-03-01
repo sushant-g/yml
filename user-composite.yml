@@ -7,5 +7,8 @@ eureka:
       defaultZone: http://localhost:8002/eureka/
 
 feign:
+ReadTimeout: 100000
+  ConnectTimeout: 100000 
+  MaxAutoRetries: 1
   hystrix:
     enabled: false
