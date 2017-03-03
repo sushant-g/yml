@@ -1,5 +1,5 @@
 server:
-  port: 5052
+  port: 5002
 
 eureka:
   client:
@@ -13,9 +13,7 @@ spring:
       port: 27017
       database: catalog-db
 feign:
-ReadTimeout: 100000
-  ConnectTimeout: 100000 
-  MaxAutoRetries: 0
+
   hystrix:
     enabled: false
 item:
