@@ -10,6 +10,6 @@ eureka:
 feign:
 ReadTimeout: 100000
   ConnectTimeout: 100000 
-  MaxAutoRetries: 1
+  MaxAutoRetries: 0
   hystrix:
     enabled: false
