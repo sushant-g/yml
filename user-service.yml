@@ -13,14 +13,5 @@ spring:
       port: 27017
       database: auth-db
 feign:
-ReadTimeout: 100000
-  ConnectTimeout: 100000 
- ` MaxAutoRetries: 1
- hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          strategy: THREAD
-          thread:
-            timeoutInMilliseconds: 10000
+  hystrix:
+    enabled: false
