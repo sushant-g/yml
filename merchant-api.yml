@@ -7,18 +7,14 @@ eureka:
       defaultZone: http://localhost:8002/eureka/
 
 feign:
-  hystrix:
- threadpool.default.coreSize: "20"
- threadpool.default.maxQueueSize: "500000"
- threadpool.default.keepAliveTimeMinutes: "2"
- threadpool.default.queueSizeRejectionThreshold: "500000"
- command:
-   default:
-     fallback.isolation.semaphore.maxConcurrentRequests: "20"
-     execution:
-       timeout:
-         enabled: "false"
-       isolation:
-         strategy: "THREAD"
-         thread:
-           timeoutInMilliseconds: "30000"
+ReadTimeout: 100000
+  ConnectTimeout: 100000 
+ ` MaxAutoRetries: 1
+ hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 10000
