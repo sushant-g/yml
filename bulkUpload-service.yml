@@ -1,0 +1,22 @@
+server:
+  port: 8006
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8002/eureka/
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: catalog-db
+feign:
+
+  hystrix:
+    enabled: false
+item:
+  types:
+  - product
+  - service
